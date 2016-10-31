@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
-<svg width="100%" viewBox="0 0 300 200">
-  <rect x="50" y="50" width="100" height="50" fill="orange"/>
+
+<svg width="100%" viewBox="0 0 300 200" style="background-color: orange">
+<circle cx="150" cy="0" r="50" fill="yellow">
+<animate attributeName="cy" from="0" to="200" dur="20s" fill="freeze"/>
+</circle>
+<polygon points="100,80 270,200 300,200 300, 80" fill="#ad7e20">
+<!--<animate attributeName="points" from="200, 180 370,300 400,300 400,180" to="100,80 270,200 300,200 300, 80" dur="20s" fill="freeze"/>-->
+</polygon>
+<line x1="100" y1="80" x2="100" y2="60" stroke="lightgoldenrodyellow" stroke-width="3"/>
 </svg>
 </html>

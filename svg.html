@@ -2,47 +2,54 @@
 <html>
 <title>Lion King</title>
 <svg width="100%" viewBox="0 0 300 200" style="background-color: orange">
+  <!--SUn-->
 <circle cx="150" cy="0" r="50" fill="yellow">
-<animate attributeName="cy" from="0" to="200" dur="20s" fill="freeze"/>
+<animate attributeName="cy" from="0" to="70" dur="20s" fill="freeze"/>
 </circle>
 <polygon points="100,80 270,200 300,200 300, 80" fill="#3d2b04">
-<!--<animate attributeName="points" from="200, 180 370,300 400,300 400,180" to="100,80 270,200 300,200 300, 80" dur="20s" fill="freeze"/>-->
+<animate attributeName="points" from="200, 180 370,300 400,300 400,180" to="100,80 270,200 300,200 300, 80" dur="20s" fill="freeze"/>-->
 </polygon>
 <!--Legs-->
 <line x1="100" y1="80" x2="100" y2="60" stroke="#5d7293" stroke-width="3">
-<!--<animate attributeName="x1" from="200" to="100" dur="20s"  fill="freeze"/>
-<animate attributeName="x2" from="200" to="100" dur="20s"  fill="freeze"/>
-<animate attributeName="y1" from="180" to="80" dur="20s"  fill="freeze"/>
+<animate attributeName="x1" from="200" to="100" dur="20s"  fill="freeze" begin="20s"/>
+<animate attributeName="x2" from="200" to="100" dur="20s"  fill="freeze" begin="20s"/>
+<!--<animate attributeName="y1" from="180" to="80" dur="20s"  fill="freeze"/>
 <animate attributeName="y2" from="160" to="60" dur="20s"  fill="freeze"/>-->
 </line>
 <line x1="108" y1="80" x2="100" y2="60" stroke="#5d7293" stroke-width="3">
-  <!--<animate attributeName="x1" from="208" to="108" dur="20s"  fill="freeze"/>
-  <animate attributeName="x2" from="200" to="100" dur="20s"  fill="freeze"/>
-  <animate attributeName="y1" from="180" to="80" dur="20s"  fill="freeze"/>
+  <animate attributeName="x1" from="208" to="108" dur="20s"  fill="freeze" begin="20s"/>
+  <animate attributeName="x2" from="200" to="100" dur="20s"  fill="freeze" begin="20s"/>
+  <!--<animate attributeName="y1" from="180" to="80" dur="20s"  fill="freeze"/>
   <animate attributeName="y2" from="160" to="60" dur="20s"  fill="freeze"/>-->
 </line>
 <!--Body-->
 <line x1="104" y1="40" x2="100" y2="60" stroke="#5d7293" stroke-width="3">
-  <!--<animate attributeName="x1" from="194" to="94" dur="20s"  fill="freeze"/>
-  <animate attributeName="x2" from="202" to="102" dur="20s"  fill="freeze"/>
-  <animate attributeName="y1" from="140" to="40" dur="20s"  fill="freeze"/>
+  <animate attributeName="x1" from="194" to="94" dur="20s"  fill="freeze" begin="20s"/>
+  <animate attributeName="x2" from="200" to="100" dur="20s"  fill="freeze" begin="20s"/>
+  <!--<animate attributeName="y1" from="140" to="40" dur="20s"  fill="freeze"/>
   <animate attributeName="y2" from="160" to="60" dur="20s"  fill="freeze"/>-->
 </line>
 <!--Arm-->
-<line x1="87" y1="40" x2="101" y2="50" stroke="#5d7293" stroke-width="3">
-  <!--<animate attributeName="x1" from="192" to="92" dur="20s"  fill="freeze"/>
-  <animate attributeName="x2" from="201" to="101" dur="20s"  fill="freeze"/>
-  <animate attributeName="y1" from="140" to="40" dur="20s"  fill="freeze"/>
+<line x1="87" y1="40" x2="197" y2="50" stroke="#5d7293" stroke-width="3">
+  <animate attributeName="x1" from="187" to="87" dur="20s"  fill="freeze" begin="20s"/>
+  <animate attributeName="x2" from="197" to="97" dur="20s"  fill="freeze" begin="20s"/>
+  <!--<animate attributeName="y1" from="140" to="40" dur="20s"  fill="freeze"/>
   <animate attributeName="y2" from="150" to="50" dur="20s"  fill="freeze"/>-->
 </line>
-<image x="95" y="24" width="20" height="20" xlink:href="http://images.clipartpanda.com/mickey-mouse-head-clipart-mickey-037.gif">
-<!--<animate attributeName="x" from="195" to="95" dur="20s" fill="freeze"/>
-<animate attributeName="y" from="124" to="24" dur="20s" fill="freeze"/>-->
+<!--MIck Mou-->
+<image x="90" y="27" width="20" height="20" xlink:href="http://images.clipartpanda.com/mickey-mouse-head-clipart-mickey-037.gif">
+<animate attributeName="x" from="190" to="90" dur="20s" fill="freeze"  begin="20s"<!--/>
+<!--<animate attributeName="y" from="127" to="27" dur="20s" fill="freeze"/>-->
 </image>
-<image x="76" y="29" width="20" height="20" xlink:href="http://www.disneyclips.com/imagesnewb/images/baby_simba2.gif">
-  <!--<animate attributeName="x" from="176" to="76" dur="20s" fill="freeze"/>
-  <animate attributeName="y" from="129" to="29" dur="20s" fill="freeze"/>-->
+<!--SIIIMba-->
+<image x="74" y="27" width="20" height="20" xlink:href="http://www.disneyclips.com/imagesnewb/images/baby_simba2.gif">
+  <animate attributeName="x" from="174" to="74" dur="20s" fill="freeze" begin="20s"/>
+  <!--<animate attributeName="y" from="127" to="27" dur="20s" fill="freeze"/>-->
 </image>
-<polyline points="150 0 100 50 200 100 100 150 150 200" stroke="#5d7293" stroke-width="15"/>
+<path d="M102 60 C 109 79, 120 80, 109 62" stroke="#5d7293" fill="transparent">
+<animate attributeName="d" from="M202 160 C 209 179, 220 180, 209 162" to="M102 60 C 109 79, 120 80, 109 62" dur="20s" begin="20s"/>-->
+</path>
+
+
 </svg>
 </html>

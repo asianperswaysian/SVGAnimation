@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <title>Lion King</title>
+<link rel="stylesheet" type="text/css" href="svg.css">
+
 <svg width="100%" viewBox="0 0 300 200" style="background-color: orange">
+
+  <image  x="120" y="500" width="40" height="40" xlink:href="https://i.ytimg.com/vi/UFatVn1hP3o/maxresdefault.jpg">
+<animate attributeName="y" from="500" to="50" dur=".0000001s" begin="22s" fill="freeze"/>
+  </image>
   <!--SUn-->
-<circle cx="150" cy="0" r="50" fill="yellow">
+<circle cx="150" cy="0" r="50" fill="yellow" fill-opacity="1">
 <animate attributeName="cy" from="0" to="70" dur="20s" fill="freeze"/>
+<animate attributeName="fill-opacity" from="0" to="1" dur="3s" begin="mouseover"/>
+
 </circle>
-<polygon points="100,80 270,200 300,200 300, 80" fill="#3d2b04">
-<animate attributeName="points" from="200, 180 370,300 400,300 400,180" to="100,80 270,200 300,200 300, 80" dur="20s" fill="freeze"/>-->
+
+<!--Stitch-->
+<image  x="20000" y="84" width="40" height="40" xlink:href="http://www.disneyclips.com/imagesnewb/images/stitchcute.png">
+<animate attributeName="x" from="20000" to="200" dur="3s" begin="22s" fill="freeze"/>
+</image>
+
+<!--cliff-->
+<polygon points="100,80 270,200 300,200 300, 80" fill="#3d2b04" fill-opacity="1">
+<animate attributeName="points" from="200, 180 370,300 400,300 400,180" to="100,80 270,200 300,200 300, 80" dur="20s" fill="freeze"/>
+<animate attributeName="fill-opacity" from="1" to="0" dur="5s" begin="mouseover"/>-->
 </polygon>
+
 <!--Legs-->
 <line x1="330" y1="80" x2="330" y2="60" stroke="#5d7293" stroke-width="3">
 <animate attributeName="x1" from="330" to="100" dur="20s"  fill="freeze" begin="20s"/>
@@ -38,7 +55,7 @@
 </line>
 <!--MIck Mou-->
 <image x="324" y="24" width="20" height="20" xlink:href="http://images.clipartpanda.com/mickey-mouse-head-clipart-mickey-037.gif">
-<animate attributeName="x" from="320" to="90" dur="20s" fill="freeze"  begin="20s"<!--/>
+<animate attributeName="x" from="320" to="90" dur="20s" fill="freeze"  begin="20s"/>
 <!--<animate attributeName="y" from="127" to="27" dur="20s" fill="freeze"/>-->
 </image>
 <!--SIIIMba-->
@@ -51,19 +68,100 @@
 <animate attributeName="d" from="M330 60 C 339 79, 340 79, 345 62" to="M100 60 C 109 79, 110 79, 115 62" dur="20s" begin="20s" fill="freeze"/>-->
 </path>
 <!-- Animals -->
-<image x="4" y="184" width="40" height="40" xlink:href="http://findicons.com/files/icons/2484/hathix_cartoon_animals/300/elephant.png">
+<image  x="4" y="184" width="40" height="40" xlink:href="http://findicons.com/files/icons/2484/hathix_cartoon_animals/300/elephant.png">
 <animate attributeName="y" from="184" to="162" dur="5s" fill="freeze"/>
 </image>
+
 <image x="44" y="184" width="40" height="40" xlink:href="http://cliparts.co/cliparts/BTg/Eg7/BTgEg7yec.png">
 <animate attributeName="y" from="184" to="162" dur="5s" fill="freeze" begin="3s"/>
 </image>
+
 <image x="74" y="184" width="40" height="40" xlink:href="http://www.i2clipart.com/cliparts/1/a/6/7/clipart-cartoon-monkey-512x512-1a67.png">
 <animate attributeName="y" from="184" to="162" dur="5s" fill="freeze" begin="6s"/>
 </image>
+
 <image x="114" y="184" width="40" height="40" xlink:href="https://openclipart.org/image/2400px/svg_to_png/22287/StudioFibonacci-Cartoon-zebra.png">
 <animate attributeName="y" from="184" to="162" dur="5s" fill="freeze" begin="9s"/>
 </image>
+<!--Disney Clouds 1-->
+<circle cx="30" cy="40" r="17" fill="white" fill-opacity="0">
+<animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+<animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="42" cy="23" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="15" cy="23" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<!--Disney  cloud 2-->
+<circle cx="80" cy="70" r="17" fill="white" fill-opacity="0">
+<animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+<animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="92" cy="53" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="65" cy="53" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<!--Disney Cloud 3-->
+<circle cx="130" cy="30" r="17" fill="white" fill-opacity="0">
+<animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+<animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="142" cy="13" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="115" cy="13" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
 
-
+<!--Disney cloud 4-->
+<circle cx="180" cy="70" r="17" fill="white" fill-opacity="0">
+<animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+<animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="192" cy="53" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="165" cy="53" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<!--disney cloud 5-->
+<circle cx="230" cy="30" r="17" fill="white" fill-opacity="0">
+<animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+<animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="242" cy="13" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="215" cy="13" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<!-- Disney cloud 6-->
+<circle cx="280" cy="70" r="17" fill="white" fill-opacity="0">
+<animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+<animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="292" cy="53" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
+<circle cx="265" cy="53" r="12" fill="white" fill-opacity="0">
+  <animate id="kk" attributeName="fill-opacity" from="0" to="1" dur="2s" begin="20s; mk.end"/>
+  <animate id="mk" attributeName="fill-opacity" from="1" to="0" dur="2s" begin="20s; kk.end"/>-->
+</circle>
 </svg>
+<p>The Lion King. A prince of a noble past destined to rule all the savannah was coronated by the wise monkey Rafiki. All was well, until Simbas father, the king of all animals,Mufasa, was assasinated by his jealous brother. Scar.</p>
 </html>
